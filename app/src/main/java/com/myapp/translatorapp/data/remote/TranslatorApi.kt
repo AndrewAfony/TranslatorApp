@@ -1,7 +1,7 @@
 package com.myapp.translatorapp.data.remote
 
 import com.myapp.translatorapp.BuildConfig
-import com.myapp.translatorapp.data.remote.dto.TranslateResultDto
+import com.myapp.translatorapp.data.remote.dto.TranslationDto
 import retrofit2.http.GET
 import retrofit2.http.Headers
 import retrofit2.http.Query
@@ -18,6 +18,6 @@ interface TranslatorApi {
         @Query("text") text: String,
         @Query("from") langFrom: String,
         @Query("to") langTo: String
-    ): TranslateResultDto
+    ): TranslationDto
 
 }
