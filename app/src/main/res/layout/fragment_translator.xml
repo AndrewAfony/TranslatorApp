@@ -24,7 +24,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
-            android:layout_weight="1f"
+            android:layout_weight="1"
             android:text="@string/translate_from"
             app:layout_constraintBottom_toTopOf="@+id/cardView"
             app:layout_constraintEnd_toStartOf="@+id/languageFrom"
@@ -85,7 +85,7 @@
             android:id="@+id/translateTo"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1f"
+            android:layout_weight="1"
             android:text="@string/translate_to"
             app:layout_constraintBottom_toTopOf="@+id/cardView2"
             app:layout_constraintStart_toStartOf="parent" />
